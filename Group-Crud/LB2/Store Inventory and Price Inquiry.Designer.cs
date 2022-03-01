@@ -91,9 +91,9 @@
             // 
             // btnSearchName
             // 
-            this.btnSearchName.Location = new System.Drawing.Point(138, 27);
+            this.btnSearchName.Location = new System.Drawing.Point(122, 31);
             this.btnSearchName.Name = "btnSearchName";
-            this.btnSearchName.Size = new System.Drawing.Size(75, 23);
+            this.btnSearchName.Size = new System.Drawing.Size(75, 20);
             this.btnSearchName.TabIndex = 2;
             this.btnSearchName.Text = "Search";
             this.btnSearchName.UseVisualStyleBackColor = true;
@@ -102,7 +102,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(295, 14);
+            this.label2.Location = new System.Drawing.Point(260, 14);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(80, 13);
             this.label2.TabIndex = 3;
@@ -110,16 +110,16 @@
             // 
             // txtSearchUPC
             // 
-            this.txtSearchUPC.Location = new System.Drawing.Point(298, 31);
+            this.txtSearchUPC.Location = new System.Drawing.Point(263, 31);
             this.txtSearchUPC.Name = "txtSearchUPC";
             this.txtSearchUPC.Size = new System.Drawing.Size(100, 20);
             this.txtSearchUPC.TabIndex = 4;
             // 
             // btnSearchUPC
             // 
-            this.btnSearchUPC.Location = new System.Drawing.Point(419, 31);
+            this.btnSearchUPC.Location = new System.Drawing.Point(369, 30);
             this.btnSearchUPC.Name = "btnSearchUPC";
-            this.btnSearchUPC.Size = new System.Drawing.Size(75, 23);
+            this.btnSearchUPC.Size = new System.Drawing.Size(75, 20);
             this.btnSearchUPC.TabIndex = 5;
             this.btnSearchUPC.Text = "Search";
             this.btnSearchUPC.UseVisualStyleBackColor = true;
@@ -176,7 +176,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(49, 150);
+            this.label3.Location = new System.Drawing.Point(13, 150);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(99, 13);
             this.label3.TabIndex = 12;
@@ -194,7 +194,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 202);
+            this.label5.Location = new System.Drawing.Point(13, 202);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(60, 13);
             this.label5.TabIndex = 14;
@@ -203,7 +203,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(243, 150);
+            this.label6.Location = new System.Drawing.Point(212, 150);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(61, 13);
             this.label6.TabIndex = 15;
@@ -212,7 +212,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(195, 176);
+            this.label7.Location = new System.Drawing.Point(212, 176);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(58, 13);
             this.label7.TabIndex = 16;
@@ -221,7 +221,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(195, 202);
+            this.label8.Location = new System.Drawing.Point(212, 202);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(63, 13);
             this.label8.TabIndex = 17;
@@ -231,33 +231,33 @@
             // 
             this.txtNewPrice.Location = new System.Drawing.Point(74, 176);
             this.txtNewPrice.Name = "txtNewPrice";
-            this.txtNewPrice.Size = new System.Drawing.Size(70, 20);
+            this.txtNewPrice.Size = new System.Drawing.Size(100, 20);
             this.txtNewPrice.TabIndex = 18;
             // 
             // txtPriceAccess
             // 
             this.txtPriceAccess.Location = new System.Drawing.Point(74, 202);
             this.txtPriceAccess.Name = "txtPriceAccess";
-            this.txtPriceAccess.Size = new System.Drawing.Size(70, 20);
+            this.txtPriceAccess.Size = new System.Drawing.Size(100, 20);
             this.txtPriceAccess.TabIndex = 19;
             // 
             // txtVerifyUPC
             // 
-            this.txtVerifyUPC.Location = new System.Drawing.Point(259, 173);
+            this.txtVerifyUPC.Location = new System.Drawing.Point(276, 173);
             this.txtVerifyUPC.Name = "txtVerifyUPC";
-            this.txtVerifyUPC.Size = new System.Drawing.Size(111, 20);
+            this.txtVerifyUPC.Size = new System.Drawing.Size(98, 20);
             this.txtVerifyUPC.TabIndex = 20;
             // 
             // txtDeleteAccess
             // 
-            this.txtDeleteAccess.Location = new System.Drawing.Point(259, 202);
+            this.txtDeleteAccess.Location = new System.Drawing.Point(276, 202);
             this.txtDeleteAccess.Name = "txtDeleteAccess";
-            this.txtDeleteAccess.Size = new System.Drawing.Size(111, 20);
+            this.txtDeleteAccess.Size = new System.Drawing.Size(98, 20);
             this.txtDeleteAccess.TabIndex = 21;
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(52, 228);
+            this.btnUpdate.Location = new System.Drawing.Point(82, 228);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(92, 23);
             this.btnUpdate.TabIndex = 22;
@@ -267,7 +267,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(246, 228);
+            this.btnDelete.Location = new System.Drawing.Point(299, 228);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 23;
@@ -278,7 +278,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(30, 280);
+            this.label9.Location = new System.Drawing.Point(13, 280);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(74, 13);
             this.label9.TabIndex = 24;
@@ -357,7 +357,7 @@
             // 
             // btnAddItem
             // 
-            this.btnAddItem.Location = new System.Drawing.Point(215, 376);
+            this.btnAddItem.Location = new System.Drawing.Point(214, 379);
             this.btnAddItem.Name = "btnAddItem";
             this.btnAddItem.Size = new System.Drawing.Size(75, 23);
             this.btnAddItem.TabIndex = 33;
@@ -417,7 +417,7 @@
             // lblChangeError
             // 
             this.lblChangeError.AutoSize = true;
-            this.lblChangeError.Location = new System.Drawing.Point(49, 254);
+            this.lblChangeError.Location = new System.Drawing.Point(79, 254);
             this.lblChangeError.Name = "lblChangeError";
             this.lblChangeError.Size = new System.Drawing.Size(0, 13);
             this.lblChangeError.TabIndex = 41;
@@ -425,7 +425,7 @@
             // lblDeleteError
             // 
             this.lblDeleteError.AutoSize = true;
-            this.lblDeleteError.Location = new System.Drawing.Point(243, 254);
+            this.lblDeleteError.Location = new System.Drawing.Point(247, 254);
             this.lblDeleteError.Name = "lblDeleteError";
             this.lblDeleteError.Size = new System.Drawing.Size(0, 13);
             this.lblDeleteError.TabIndex = 42;
@@ -434,7 +434,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(458, 450);
             this.Controls.Add(this.lblDeleteError);
             this.Controls.Add(this.lblChangeError);
             this.Controls.Add(this.txtAddDistributor);
