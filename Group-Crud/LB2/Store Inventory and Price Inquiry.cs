@@ -36,6 +36,8 @@ namespace LB2
             {
                 if (liInventory[i].Name.ToLower().Contains(searchedName.ToLower()))
                 {
+                    lblResultsName.ForeColor = Color.Black;
+                    lblResultsCost.ForeColor = Color.Black;
                     lblResultsName.Text = String.Format("Name: {0}", liInventory[i].Name);
                     lblResultsUPC.Text = Convert.ToString(String.Format("UPC: {0}", liInventory[i].UpcCode));
                     lblResultsDistributor.Text = String.Format("Distributor: {0}", liInventory[i].Distributor);
@@ -60,7 +62,8 @@ namespace LB2
                 }
                 else
                 {
-                    
+                    lblResultsName.ForeColor = Color.Red;
+                    lblResultsName.Text = "Invalid Product Name";
                 }
             }
         }
@@ -71,12 +74,14 @@ namespace LB2
 
             for (int i = 0; i < liInventory.Count; i++)
             {
-                if (liInventory[i].UpcCode.Contains(searchedCode))
+                if (liInventory[i].UpcCode == searchedCode)
                 {
                     lblResultsName.Text = String.Format("Name: {0}", liInventory[i].Name);
                     lblResultsUPC.Text = Convert.ToString(String.Format("UPC: {0}", liInventory[i].UpcCode));
                     lblResultsDistributor.Text = String.Format("Distributor: {0}", liInventory[i].Distributor);
                     lblResultsPrice.Text = Convert.ToString(String.Format("Store Price: {0:C}", liInventory[i].StorePrice));
+                    lblResultsName.ForeColor = Color.Black;
+                    lblResultsCost.ForeColor = Color.Black;
                     lblResultsCost.Text = Convert.ToString(String.Format("Cost Per Case: {0:C}", liInventory[i].CostPerCase));
                     lblResultsUnits.Text = Convert.ToString(String.Format("Units Per Case: {0:C}", liInventory[i].UnitsPerCase));
 
@@ -97,7 +102,8 @@ namespace LB2
                 }
                 else
                 {
-
+                    lblResultsCost.ForeColor = Color.Red;
+                    lblResultsCost.Text = "Invalid UPC Code";
                 }
             }
             }

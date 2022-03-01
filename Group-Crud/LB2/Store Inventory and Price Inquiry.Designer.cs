@@ -87,14 +87,14 @@
             this.txtSearchName.Location = new System.Drawing.Point(16, 31);
             this.txtSearchName.Name = "txtSearchName";
             this.txtSearchName.Size = new System.Drawing.Size(100, 20);
-            this.txtSearchName.TabIndex = 1;
+            this.txtSearchName.TabIndex = 0;
             // 
             // btnSearchName
             // 
             this.btnSearchName.Location = new System.Drawing.Point(122, 31);
             this.btnSearchName.Name = "btnSearchName";
             this.btnSearchName.Size = new System.Drawing.Size(75, 20);
-            this.btnSearchName.TabIndex = 2;
+            this.btnSearchName.TabIndex = 1;
             this.btnSearchName.Text = "Search";
             this.btnSearchName.UseVisualStyleBackColor = true;
             this.btnSearchName.Click += new System.EventHandler(this.btnSearchName_Click);
@@ -113,14 +113,14 @@
             this.txtSearchUPC.Location = new System.Drawing.Point(263, 31);
             this.txtSearchUPC.Name = "txtSearchUPC";
             this.txtSearchUPC.Size = new System.Drawing.Size(100, 20);
-            this.txtSearchUPC.TabIndex = 4;
+            this.txtSearchUPC.TabIndex = 2;
             // 
             // btnSearchUPC
             // 
             this.btnSearchUPC.Location = new System.Drawing.Point(369, 30);
             this.btnSearchUPC.Name = "btnSearchUPC";
             this.btnSearchUPC.Size = new System.Drawing.Size(75, 20);
-            this.btnSearchUPC.TabIndex = 5;
+            this.btnSearchUPC.TabIndex = 3;
             this.btnSearchUPC.Text = "Search";
             this.btnSearchUPC.UseVisualStyleBackColor = true;
             this.btnSearchUPC.Click += new System.EventHandler(this.btnSearchUPC_Click);
@@ -238,7 +238,7 @@
             this.txtNewPrice.Location = new System.Drawing.Point(74, 176);
             this.txtNewPrice.Name = "txtNewPrice";
             this.txtNewPrice.Size = new System.Drawing.Size(100, 20);
-            this.txtNewPrice.TabIndex = 18;
+            this.txtNewPrice.TabIndex = 4;
             this.txtNewPrice.Visible = false;
             // 
             // txtPriceAccess
@@ -246,7 +246,7 @@
             this.txtPriceAccess.Location = new System.Drawing.Point(74, 202);
             this.txtPriceAccess.Name = "txtPriceAccess";
             this.txtPriceAccess.Size = new System.Drawing.Size(100, 20);
-            this.txtPriceAccess.TabIndex = 19;
+            this.txtPriceAccess.TabIndex = 5;
             this.txtPriceAccess.Visible = false;
             // 
             // txtVerifyUPC
@@ -254,7 +254,7 @@
             this.txtVerifyUPC.Location = new System.Drawing.Point(276, 173);
             this.txtVerifyUPC.Name = "txtVerifyUPC";
             this.txtVerifyUPC.Size = new System.Drawing.Size(98, 20);
-            this.txtVerifyUPC.TabIndex = 20;
+            this.txtVerifyUPC.TabIndex = 7;
             this.txtVerifyUPC.Visible = false;
             // 
             // txtDeleteAccess
@@ -262,7 +262,7 @@
             this.txtDeleteAccess.Location = new System.Drawing.Point(276, 202);
             this.txtDeleteAccess.Name = "txtDeleteAccess";
             this.txtDeleteAccess.Size = new System.Drawing.Size(98, 20);
-            this.txtDeleteAccess.TabIndex = 21;
+            this.txtDeleteAccess.TabIndex = 8;
             this.txtDeleteAccess.Visible = false;
             // 
             // btnUpdate
@@ -270,7 +270,7 @@
             this.btnUpdate.Location = new System.Drawing.Point(82, 228);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(92, 23);
-            this.btnUpdate.TabIndex = 22;
+            this.btnUpdate.TabIndex = 6;
             this.btnUpdate.Text = "Update Price";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Visible = false;
@@ -281,7 +281,7 @@
             this.btnDelete.Location = new System.Drawing.Point(299, 228);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
-            this.btnDelete.TabIndex = 23;
+            this.btnDelete.TabIndex = 9;
             this.btnDelete.Text = "Delete Item";
             this.btnDelete.UseVisualStyleBackColor = true;
             this.btnDelete.Visible = false;
@@ -372,7 +372,7 @@
             this.btnAddItem.Location = new System.Drawing.Point(214, 379);
             this.btnAddItem.Name = "btnAddItem";
             this.btnAddItem.Size = new System.Drawing.Size(75, 23);
-            this.btnAddItem.TabIndex = 33;
+            this.btnAddItem.TabIndex = 17;
             this.btnAddItem.Text = "Add Item";
             this.btnAddItem.UseVisualStyleBackColor = true;
             this.btnAddItem.Click += new System.EventHandler(this.btnAddItem_Click);
@@ -382,49 +382,49 @@
             this.txtAddName.Location = new System.Drawing.Point(104, 306);
             this.txtAddName.Name = "txtAddName";
             this.txtAddName.Size = new System.Drawing.Size(70, 20);
-            this.txtAddName.TabIndex = 34;
+            this.txtAddName.TabIndex = 10;
             // 
             // txtAddUPC
             // 
             this.txtAddUPC.Location = new System.Drawing.Point(104, 332);
             this.txtAddUPC.Name = "txtAddUPC";
             this.txtAddUPC.Size = new System.Drawing.Size(70, 20);
-            this.txtAddUPC.TabIndex = 35;
+            this.txtAddUPC.TabIndex = 11;
             // 
             // txtAddPrice
             // 
             this.txtAddPrice.Location = new System.Drawing.Point(104, 356);
             this.txtAddPrice.Name = "txtAddPrice";
             this.txtAddPrice.Size = new System.Drawing.Size(70, 20);
-            this.txtAddPrice.TabIndex = 36;
+            this.txtAddPrice.TabIndex = 12;
             // 
             // txtAddAccess
             // 
             this.txtAddAccess.Location = new System.Drawing.Point(104, 381);
             this.txtAddAccess.Name = "txtAddAccess";
             this.txtAddAccess.Size = new System.Drawing.Size(70, 20);
-            this.txtAddAccess.TabIndex = 37;
+            this.txtAddAccess.TabIndex = 13;
             // 
             // txtAddCost
             // 
             this.txtAddCost.Location = new System.Drawing.Point(304, 306);
             this.txtAddCost.Name = "txtAddCost";
             this.txtAddCost.Size = new System.Drawing.Size(70, 20);
-            this.txtAddCost.TabIndex = 38;
+            this.txtAddCost.TabIndex = 14;
             // 
             // txtAddUnits
             // 
             this.txtAddUnits.Location = new System.Drawing.Point(304, 333);
             this.txtAddUnits.Name = "txtAddUnits";
             this.txtAddUnits.Size = new System.Drawing.Size(70, 20);
-            this.txtAddUnits.TabIndex = 39;
+            this.txtAddUnits.TabIndex = 15;
             // 
             // txtAddDistributor
             // 
             this.txtAddDistributor.Location = new System.Drawing.Point(304, 356);
             this.txtAddDistributor.Name = "txtAddDistributor";
             this.txtAddDistributor.Size = new System.Drawing.Size(70, 20);
-            this.txtAddDistributor.TabIndex = 40;
+            this.txtAddDistributor.TabIndex = 16;
             // 
             // lblChangeError
             // 
