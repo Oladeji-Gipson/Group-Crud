@@ -429,19 +429,23 @@
             // lblChangeError
             // 
             this.lblChangeError.AutoSize = true;
-            this.lblChangeError.Location = new System.Drawing.Point(79, 254);
+            this.lblChangeError.ForeColor = System.Drawing.Color.Red;
+            this.lblChangeError.Location = new System.Drawing.Point(66, 254);
             this.lblChangeError.Name = "lblChangeError";
-            this.lblChangeError.Size = new System.Drawing.Size(0, 13);
+            this.lblChangeError.Size = new System.Drawing.Size(108, 13);
             this.lblChangeError.TabIndex = 41;
+            this.lblChangeError.Text = "Access Key Incorrect";
             this.lblChangeError.Visible = false;
             // 
             // lblDeleteError
             // 
             this.lblDeleteError.AutoSize = true;
-            this.lblDeleteError.Location = new System.Drawing.Point(247, 254);
+            this.lblDeleteError.ForeColor = System.Drawing.Color.Red;
+            this.lblDeleteError.Location = new System.Drawing.Point(266, 254);
             this.lblDeleteError.Name = "lblDeleteError";
-            this.lblDeleteError.Size = new System.Drawing.Size(0, 13);
+            this.lblDeleteError.Size = new System.Drawing.Size(108, 13);
             this.lblDeleteError.TabIndex = 42;
+            this.lblDeleteError.Text = "Access Key Incorrect";
             this.lblDeleteError.Visible = false;
             // 
             // Form1
