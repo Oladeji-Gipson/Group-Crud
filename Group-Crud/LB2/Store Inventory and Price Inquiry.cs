@@ -21,6 +21,8 @@ namespace LB2
             new StoreInventory("Coca-Cola", "4747-3328", "Coca-Cola", 4.00, 400.00, 100),
         };
 
+        int accessKey = 1234;
+
         public Form1()
         {
             InitializeComponent();
@@ -107,7 +109,47 @@ namespace LB2
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
+            string verifyCode = txtVerifyUPC.Text;
+            int enteredKey = Convert.ToInt32(txtDeleteAccess.Text);
 
+            for (int i = 0; liInventory.Count > 0; i++)
+            {
+                if (liInventory[i].UpcCode == verifyCode && enteredKey == accessKey)
+                {
+                    lblDeleteError.Visible = false;
+                    txtSearchName.Text = string.Empty;
+                    txtSearchUPC.Text = string.Empty;
+
+                    lblResultsName.Text = string.Empty;
+                    lblResultsUPC.Text = string.Empty;
+                    lblResultsDistributor.Text = string.Empty;
+                    lblResultsPrice.Text = string.Empty;
+                    lblResultsCost.Text = string.Empty;
+                    lblResultsUnits.Text = string.Empty;
+
+                    txtNewPrice.Visible = false;
+                    txtPriceAccess.Visible = false;
+                    btnUpdate.Visible = false;
+                    lblChangeAccessKey.Visible = false;
+                    lblChangeStorePrice.Visible = false;
+                    lblNewPrice.Visible = false;
+
+                    txtVerifyUPC.Visible = false;
+                    txtDeleteAccess.Visible = false;
+                    btnDelete.Visible = false;
+                    lblDeleteItem.Visible = false;
+                    lblVerifyUPC.Visible = false;
+                    lblDeleteAccessKey.Visible = false;
+
+                    liInventory.RemoveAt(i);
+                    break;
+                }
+                else
+                {
+                    lblDeleteError.Visible = true;
+                    break;
+                }
+            }
         }
 
         private void btnAddItem_Click(object sender, EventArgs e)
