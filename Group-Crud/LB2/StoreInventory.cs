@@ -9,13 +9,13 @@ namespace LB2
     public class StoreInventory
     {
         string _name;
-        int _upcCode;
-        int _storePrice;
-        int _costPerCase;
+        string _upcCode;
+        double _storePrice;
+        double _costPerCase;
         int _unitsPerCase;
         string _distributor;
 
-        public StoreInventory(string name, int upcCode, string distributor, int storePrice, int costPerCase, int unitsPerCase)
+        public StoreInventory(string name, string upcCode, string distributor, double storePrice, double costPerCase, int unitsPerCase)
         {
             _name = name;
             _upcCode = upcCode;
@@ -31,7 +31,7 @@ namespace LB2
             get { return _name; }
         }
 
-        public int UpcCode
+        public string UpcCode
         {
             set { _upcCode = value; }
             get { return _upcCode; }
@@ -43,13 +43,13 @@ namespace LB2
             get { return _distributor; }
         }
 
-        public int StorePrice
+        public double StorePrice
         {
             set { _storePrice = value; }
             get { return _storePrice; }
         }
 
-        public int CostPerCase
+        public double CostPerCase
         {
             set { _costPerCase = value; }
             get { return _costPerCase; }

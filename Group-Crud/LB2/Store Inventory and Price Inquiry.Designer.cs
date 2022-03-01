@@ -40,12 +40,12 @@
             this.lblResultsCost = new System.Windows.Forms.Label();
             this.lblResultsUnits = new System.Windows.Forms.Label();
             this.lblResultsDistributor = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lblChangeStorePrice = new System.Windows.Forms.Label();
+            this.lblNewPrice = new System.Windows.Forms.Label();
+            this.lblChangeAccessKey = new System.Windows.Forms.Label();
+            this.lblDeleteItem = new System.Windows.Forms.Label();
+            this.lblVerifyUPC = new System.Windows.Forms.Label();
+            this.lblDeleteAccessKey = new System.Windows.Forms.Label();
             this.txtNewPrice = new System.Windows.Forms.TextBox();
             this.txtPriceAccess = new System.Windows.Forms.TextBox();
             this.txtVerifyUPC = new System.Windows.Forms.TextBox();
@@ -173,59 +173,65 @@
             this.lblResultsDistributor.Size = new System.Drawing.Size(0, 13);
             this.lblResultsDistributor.TabIndex = 11;
             // 
-            // label3
+            // lblChangeStorePrice
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(13, 150);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 13);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Change Store Price";
+            this.lblChangeStorePrice.AutoSize = true;
+            this.lblChangeStorePrice.Location = new System.Drawing.Point(13, 150);
+            this.lblChangeStorePrice.Name = "lblChangeStorePrice";
+            this.lblChangeStorePrice.Size = new System.Drawing.Size(99, 13);
+            this.lblChangeStorePrice.TabIndex = 12;
+            this.lblChangeStorePrice.Text = "Change Store Price";
+            this.lblChangeStorePrice.Visible = false;
             // 
-            // label4
+            // lblNewPrice
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 176);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 13);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "New Price";
+            this.lblNewPrice.AutoSize = true;
+            this.lblNewPrice.Location = new System.Drawing.Point(12, 176);
+            this.lblNewPrice.Name = "lblNewPrice";
+            this.lblNewPrice.Size = new System.Drawing.Size(56, 13);
+            this.lblNewPrice.TabIndex = 13;
+            this.lblNewPrice.Text = "New Price";
+            this.lblNewPrice.Visible = false;
             // 
-            // label5
+            // lblChangeAccessKey
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(13, 202);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(60, 13);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "AccessKey";
+            this.lblChangeAccessKey.AutoSize = true;
+            this.lblChangeAccessKey.Location = new System.Drawing.Point(13, 202);
+            this.lblChangeAccessKey.Name = "lblChangeAccessKey";
+            this.lblChangeAccessKey.Size = new System.Drawing.Size(60, 13);
+            this.lblChangeAccessKey.TabIndex = 14;
+            this.lblChangeAccessKey.Text = "AccessKey";
+            this.lblChangeAccessKey.Visible = false;
             // 
-            // label6
+            // lblDeleteItem
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(212, 150);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(61, 13);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "Delete Item";
+            this.lblDeleteItem.AutoSize = true;
+            this.lblDeleteItem.Location = new System.Drawing.Point(212, 150);
+            this.lblDeleteItem.Name = "lblDeleteItem";
+            this.lblDeleteItem.Size = new System.Drawing.Size(61, 13);
+            this.lblDeleteItem.TabIndex = 15;
+            this.lblDeleteItem.Text = "Delete Item";
+            this.lblDeleteItem.Visible = false;
             // 
-            // label7
+            // lblVerifyUPC
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(212, 176);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(58, 13);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Verify UPC";
+            this.lblVerifyUPC.AutoSize = true;
+            this.lblVerifyUPC.Location = new System.Drawing.Point(212, 176);
+            this.lblVerifyUPC.Name = "lblVerifyUPC";
+            this.lblVerifyUPC.Size = new System.Drawing.Size(58, 13);
+            this.lblVerifyUPC.TabIndex = 16;
+            this.lblVerifyUPC.Text = "Verify UPC";
+            this.lblVerifyUPC.Visible = false;
             // 
-            // label8
+            // lblDeleteAccessKey
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(212, 202);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(63, 13);
-            this.label8.TabIndex = 17;
-            this.label8.Text = "Access Key";
+            this.lblDeleteAccessKey.AutoSize = true;
+            this.lblDeleteAccessKey.Location = new System.Drawing.Point(212, 202);
+            this.lblDeleteAccessKey.Name = "lblDeleteAccessKey";
+            this.lblDeleteAccessKey.Size = new System.Drawing.Size(63, 13);
+            this.lblDeleteAccessKey.TabIndex = 17;
+            this.lblDeleteAccessKey.Text = "Access Key";
+            this.lblDeleteAccessKey.Visible = false;
             // 
             // txtNewPrice
             // 
@@ -233,6 +239,7 @@
             this.txtNewPrice.Name = "txtNewPrice";
             this.txtNewPrice.Size = new System.Drawing.Size(100, 20);
             this.txtNewPrice.TabIndex = 18;
+            this.txtNewPrice.Visible = false;
             // 
             // txtPriceAccess
             // 
@@ -240,6 +247,7 @@
             this.txtPriceAccess.Name = "txtPriceAccess";
             this.txtPriceAccess.Size = new System.Drawing.Size(100, 20);
             this.txtPriceAccess.TabIndex = 19;
+            this.txtPriceAccess.Visible = false;
             // 
             // txtVerifyUPC
             // 
@@ -247,6 +255,7 @@
             this.txtVerifyUPC.Name = "txtVerifyUPC";
             this.txtVerifyUPC.Size = new System.Drawing.Size(98, 20);
             this.txtVerifyUPC.TabIndex = 20;
+            this.txtVerifyUPC.Visible = false;
             // 
             // txtDeleteAccess
             // 
@@ -254,6 +263,7 @@
             this.txtDeleteAccess.Name = "txtDeleteAccess";
             this.txtDeleteAccess.Size = new System.Drawing.Size(98, 20);
             this.txtDeleteAccess.TabIndex = 21;
+            this.txtDeleteAccess.Visible = false;
             // 
             // btnUpdate
             // 
@@ -263,6 +273,7 @@
             this.btnUpdate.TabIndex = 22;
             this.btnUpdate.Text = "Update Price";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Visible = false;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // btnDelete
@@ -273,6 +284,7 @@
             this.btnDelete.TabIndex = 23;
             this.btnDelete.Text = "Delete Item";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Visible = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // label9
@@ -421,6 +433,7 @@
             this.lblChangeError.Name = "lblChangeError";
             this.lblChangeError.Size = new System.Drawing.Size(0, 13);
             this.lblChangeError.TabIndex = 41;
+            this.lblChangeError.Visible = false;
             // 
             // lblDeleteError
             // 
@@ -429,6 +442,7 @@
             this.lblDeleteError.Name = "lblDeleteError";
             this.lblDeleteError.Size = new System.Drawing.Size(0, 13);
             this.lblDeleteError.TabIndex = 42;
+            this.lblDeleteError.Visible = false;
             // 
             // Form1
             // 
@@ -460,12 +474,12 @@
             this.Controls.Add(this.txtVerifyUPC);
             this.Controls.Add(this.txtPriceAccess);
             this.Controls.Add(this.txtNewPrice);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblDeleteAccessKey);
+            this.Controls.Add(this.lblVerifyUPC);
+            this.Controls.Add(this.lblDeleteItem);
+            this.Controls.Add(this.lblChangeAccessKey);
+            this.Controls.Add(this.lblNewPrice);
+            this.Controls.Add(this.lblChangeStorePrice);
             this.Controls.Add(this.lblResultsDistributor);
             this.Controls.Add(this.lblResultsUnits);
             this.Controls.Add(this.lblResultsCost);
@@ -499,12 +513,12 @@
         private System.Windows.Forms.Label lblResultsCost;
         private System.Windows.Forms.Label lblResultsUnits;
         private System.Windows.Forms.Label lblResultsDistributor;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lblChangeStorePrice;
+        private System.Windows.Forms.Label lblNewPrice;
+        private System.Windows.Forms.Label lblChangeAccessKey;
+        private System.Windows.Forms.Label lblDeleteItem;
+        private System.Windows.Forms.Label lblVerifyUPC;
+        private System.Windows.Forms.Label lblDeleteAccessKey;
         private System.Windows.Forms.TextBox txtNewPrice;
         private System.Windows.Forms.TextBox txtPriceAccess;
         private System.Windows.Forms.TextBox txtVerifyUPC;

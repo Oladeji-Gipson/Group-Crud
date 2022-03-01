@@ -9,3 +9,14 @@ C:\Users\thisi\Documents\GitHub\awd1100allcoursework-Oladeji-Gipson\Lab\CH12\CH1
 C:\Users\thisi\Documents\GitHub\awd1100allcoursework-Oladeji-Gipson\Lab\CH12\CH12\LB2\obj\Debug\LB2.csproj.CoreCompileInputs.cache
 C:\Users\thisi\Documents\GitHub\awd1100allcoursework-Oladeji-Gipson\Lab\CH12\CH12\LB2\obj\Debug\LB2.exe
 C:\Users\thisi\Documents\GitHub\awd1100allcoursework-Oladeji-Gipson\Lab\CH12\CH12\LB2\obj\Debug\LB2.pdb
+C:\Users\samue\OneDrive\Desktop\Group-Crud\group_crud\Group-Crud\LB2\bin\Debug\LB2.exe.config
+C:\Users\samue\OneDrive\Desktop\Group-Crud\group_crud\Group-Crud\LB2\bin\Debug\LB2.exe
+C:\Users\samue\OneDrive\Desktop\Group-Crud\group_crud\Group-Crud\LB2\bin\Debug\LB2.pdb
+C:\Users\samue\OneDrive\Desktop\Group-Crud\group_crud\Group-Crud\LB2\obj\Debug\LB2.csproj.AssemblyReference.cache
+C:\Users\samue\OneDrive\Desktop\Group-Crud\group_crud\Group-Crud\LB2\obj\Debug\LB2.csproj.SuggestedBindingRedirects.cache
+C:\Users\samue\OneDrive\Desktop\Group-Crud\group_crud\Group-Crud\LB2\obj\Debug\LB2.Properties.Resources.resources
+C:\Users\samue\OneDrive\Desktop\Group-Crud\group_crud\Group-Crud\LB2\obj\Debug\LB2.Form1.resources
+C:\Users\samue\OneDrive\Desktop\Group-Crud\group_crud\Group-Crud\LB2\obj\Debug\LB2.csproj.GenerateResource.cache
+C:\Users\samue\OneDrive\Desktop\Group-Crud\group_crud\Group-Crud\LB2\obj\Debug\LB2.csproj.CoreCompileInputs.cache
+C:\Users\samue\OneDrive\Desktop\Group-Crud\group_crud\Group-Crud\LB2\obj\Debug\LB2.exe
+C:\Users\samue\OneDrive\Desktop\Group-Crud\group_crud\Group-Crud\LB2\obj\Debug\LB2.pdb
