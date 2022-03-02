@@ -180,6 +180,8 @@ namespace LB2
                     lblDeleteItem.Visible = false;
                     lblVerifyUPC.Visible = false;
                     lblDeleteAccessKey.Visible = false;
+                    txtDeleteAccess.Text = string.Empty;
+                    txtVerifyUPC.Text = string.Empty;
 
                     liInventory.RemoveAt(i);
                     break;
@@ -187,6 +189,8 @@ namespace LB2
                 else
                 {
                     lblDeleteError.Visible = true;
+                    txtDeleteAccess.Text = string.Empty;
+                    txtVerifyUPC.Text = string.Empty;
                     break;
                 }
 
@@ -194,8 +198,7 @@ namespace LB2
               
             }
 
-            txtDeleteAccess.Text = string.Empty;
-            txtVerifyUPC.Text= string.Empty;
+            
         }
 
         private void btnAddItem_Click(object sender, EventArgs e)
