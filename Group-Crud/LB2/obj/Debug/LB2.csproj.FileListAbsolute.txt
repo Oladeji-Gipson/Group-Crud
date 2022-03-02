@@ -20,3 +20,14 @@ C:\Users\samue\OneDrive\Desktop\Group-Crud\group_crud\Group-Crud\LB2\obj\Debug\L
 C:\Users\samue\OneDrive\Desktop\Group-Crud\group_crud\Group-Crud\LB2\obj\Debug\LB2.csproj.CoreCompileInputs.cache
 C:\Users\samue\OneDrive\Desktop\Group-Crud\group_crud\Group-Crud\LB2\obj\Debug\LB2.exe
 C:\Users\samue\OneDrive\Desktop\Group-Crud\group_crud\Group-Crud\LB2\obj\Debug\LB2.pdb
+C:\Users\jmand\OneDrive\Documents\GitHub\Group-Crud\Group-Crud\Group-Crud\LB2\bin\Debug\LB2.exe.config
+C:\Users\jmand\OneDrive\Documents\GitHub\Group-Crud\Group-Crud\Group-Crud\LB2\bin\Debug\LB2.exe
+C:\Users\jmand\OneDrive\Documents\GitHub\Group-Crud\Group-Crud\Group-Crud\LB2\bin\Debug\LB2.pdb
+C:\Users\jmand\OneDrive\Documents\GitHub\Group-Crud\Group-Crud\Group-Crud\LB2\obj\Debug\LB2.csproj.AssemblyReference.cache
+C:\Users\jmand\OneDrive\Documents\GitHub\Group-Crud\Group-Crud\Group-Crud\LB2\obj\Debug\LB2.csproj.SuggestedBindingRedirects.cache
+C:\Users\jmand\OneDrive\Documents\GitHub\Group-Crud\Group-Crud\Group-Crud\LB2\obj\Debug\LB2.Properties.Resources.resources
+C:\Users\jmand\OneDrive\Documents\GitHub\Group-Crud\Group-Crud\Group-Crud\LB2\obj\Debug\LB2.Form1.resources
+C:\Users\jmand\OneDrive\Documents\GitHub\Group-Crud\Group-Crud\Group-Crud\LB2\obj\Debug\LB2.csproj.GenerateResource.cache
+C:\Users\jmand\OneDrive\Documents\GitHub\Group-Crud\Group-Crud\Group-Crud\LB2\obj\Debug\LB2.csproj.CoreCompileInputs.cache
+C:\Users\jmand\OneDrive\Documents\GitHub\Group-Crud\Group-Crud\Group-Crud\LB2\obj\Debug\LB2.exe
+C:\Users\jmand\OneDrive\Documents\GitHub\Group-Crud\Group-Crud\Group-Crud\LB2\obj\Debug\LB2.pdb

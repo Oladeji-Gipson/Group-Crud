@@ -110,7 +110,29 @@ namespace LB2
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
+            bool foundItem = false;
 
+            for (int i = 0; i < liInventory.Count && foundItem == false; i++)
+            {
+                
+                if (lblResultsName.Text.ToLower().Contains(liInventory[i].Name.ToLower()))
+                {
+                    foundItem = true;
+                    if(accessKey == int.Parse(txtPriceAccess.Text) && txtNewPrice.Text != null)
+                    {
+                        liInventory[i].StorePrice = double.Parse(txtNewPrice.Text);
+                        lblResultsPrice.Text = Convert.ToString(String.Format("Store Price: {0:C}", liInventory[i].StorePrice));
+                        txtPriceAccess.Text = String.Empty;
+                        txtNewPrice.Text = String.Empty;
+                    }
+                    else
+                    {
+                        lblChangeError.Visible = true;
+                        txtPriceAccess.Text = String.Empty;
+                        txtNewPrice.Text = String.Empty;
+                    }
+                }  
+            }
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
@@ -160,7 +182,24 @@ namespace LB2
 
         private void btnAddItem_Click(object sender, EventArgs e)
         {
-
+            if(liInventory.Count < 21 && accessKey == int.Parse(txtAddAccess.Text))
+            {
+                liInventory.Add(new StoreInventory(
+                    txtAddName.Text,
+                    txtAddUPC.Text,
+                    txtAddDistributor.Text,
+                    double.Parse(txtAddPrice.Text),
+                    double.Parse(txtAddCost.Text),
+                    int.Parse(txtAddUnits.Text)
+                ));
+            }
+            txtAddName.Text = String.Empty;
+            txtAddUPC.Text = String.Empty;
+            txtAddDistributor.Text = String.Empty;
+            txtAddPrice.Text = String.Empty;
+            txtAddCost.Text = String.Empty;
+            txtAddUnits.Text = String.Empty;
+            txtAddAccess.Text = String.Empty;
         }
     }
 }
