@@ -30,6 +30,9 @@ namespace LB2
 
         private void btnSearchName_Click(object sender, EventArgs e)
         {
+            lblAddError.Visible = false;
+            lblAddErrorMessage.Visible = false;
+            lblChangeError.Visible = false;
             string searchedName = txtSearchName.Text;
 
             for (int i = 0; i < liInventory.Count; i++)
@@ -70,6 +73,9 @@ namespace LB2
 
         private void btnSearchUPC_Click(object sender, EventArgs e)
         {
+            lblAddError.Visible = false;
+            lblAddErrorMessage.Visible = false;
+            lblChangeError.Visible = false;
             string searchedCode = txtSearchUPC.Text;
 
             for (int i = 0; i < liInventory.Count; i++)
@@ -110,6 +116,9 @@ namespace LB2
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
+            lblAddError.Visible = false;
+            lblAddErrorMessage.Visible = false;
+            lblChangeError.Visible = false;
             bool foundItem = false;
 
             for (int i = 0; i < liInventory.Count && foundItem == false; i++)
@@ -137,6 +146,9 @@ namespace LB2
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
+            lblAddError.Visible = false;
+            lblAddErrorMessage.Visible = false;
+            lblChangeError.Visible = false;
             string verifyCode = txtVerifyUPC.Text;
             int enteredKey = Convert.ToInt32(txtDeleteAccess.Text);
 
@@ -177,12 +189,21 @@ namespace LB2
                     lblDeleteError.Visible = true;
                     break;
                 }
+
+                
+              
             }
+
+            txtDeleteAccess.Text = string.Empty;
+            txtVerifyUPC.Text= string.Empty;
         }
 
         private void btnAddItem_Click(object sender, EventArgs e)
         {
-            if(liInventory.Count < 21 && accessKey == int.Parse(txtAddAccess.Text))
+            lblAddError.Visible = false;
+            lblAddErrorMessage.Visible = false;
+            lblChangeError.Visible = false;
+            if (liInventory.Count < 21 && accessKey == int.Parse(txtAddAccess.Text))
             {
                 liInventory.Add(new StoreInventory(
                     txtAddName.Text,
@@ -192,6 +213,10 @@ namespace LB2
                     double.Parse(txtAddCost.Text),
                     int.Parse(txtAddUnits.Text)
                 ));
+            }
+            else
+            {
+                lblAddErrorMessage.Visible = true;
             }
             txtAddName.Text = String.Empty;
             txtAddUPC.Text = String.Empty;
